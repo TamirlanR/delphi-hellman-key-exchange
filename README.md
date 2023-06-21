@@ -1,11 +1,30 @@
-# delphi-hellman-key-exchange
-  a cryptographic protocol that allows two parties to obtain a shared secret key using an unprotected communication channel
-This project works on one computer by running and using 3 files at the same time, Visual Studio Code helps with this.
+# Delphi-Hellman Key Exchange
 
-To run the code, you first need to run the server file, after which you need to run the client file and at the end the client2 file
+The Delphi-Hellman Key Exchange is a cryptographic protocol that enables two parties to establish a shared secret key over an insecure communication channel. This project implements the Delphi-Hellman Key Exchange algorithm using three files and requires the use of Visual Studio Code as the development environment.
 
-  When the server starts up, it waits for clients to connect, after connecting the first client, it starts writing 1, waiting for 2 clients, this is something like a stub, I didn’t know how else to do it.
+## Getting Started
+
+To run the code successfully, follow these steps:
+
+1. Start by running the server file.
+2. Next, run the client file.
+3. Finally, run the client2 file.
+
+The server will wait for clients to connect. Once the first client connects, the server will start writing "1," indicating that it is waiting for the second client. Please note that this is a temporary implementation and serves as a placeholder.
+
+Once the clients successfully connect, you can send messages from the client side. These messages will be encrypted and displayed on the server. To disconnect from the server, simply close the program or send the message "bye" in the chat.
+
+## Dependencies
+
+This project requires the following dependencies:
+
+- Visual Studio Code
+
+## Contributing
+
+Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
 
 
-  After a successful connection, you can send messages from the client side, which will then be encrypted, and the encrypted messages will be shown on the server),
-to disconnect from the server, you can either simply close the program or write in messages:bye
+## Authors
+
+TamirlanR
